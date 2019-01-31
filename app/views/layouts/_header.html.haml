@@ -1,0 +1,20 @@
+%header
+  =image_tag 'layouts/logo_black.png', class: 'logo black-logo hide'
+  =image_tag 'layouts/logo_white.png', class: 'logo white-logo'
+  %div.hamburger.hamburger--squeeze{type: 'button'}
+    %div.hamburger-box
+      %div.hamburger-inner
+.menu
+  %ul
+    %li
+      = link_to 'Company', '#', class: 'nav-link uppercase'
+    %li
+      = link_to 'Case Studies', '#', class: 'nav-link uppercase'
+    %li
+      = link_to 'Our Work', '#', class: 'nav-link uppercase'
+    %li
+      = link_to 'Studio', '#', class: 'nav-link uppercase'
+    %li
+      = link_to 'Bio', '#', class: 'nav-link uppercase'
+    %li
+      = link_to 'Contact', '#', class: 'nav-link uppercase'
