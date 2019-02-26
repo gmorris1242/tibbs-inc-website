@@ -1,0 +1,20 @@
+.btn {
+  color: $white;
+  font-weight: bold;
+  padding: 10px 30px;
+  display: inline-block;
+  margin: 10px 0;
+
+  &:hover,
+  &:active,
+  &:visited { color: $white; }
+
+
+  &.btn-black {
+    background: rgba(0,0,0,.75);
+
+    &:hover {
+      background: rgba(0,0,0,1);
+    }
+  }
+}
