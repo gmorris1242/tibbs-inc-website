@@ -61,24 +61,23 @@
   }
 
   .other-2 {
-    background: image-url('pages/home/4x4.jpg') center no-repeat;
+    background: image-url('pages/home/tunnel.jpg') center no-repeat;
     color: $white;
   }
 
   .other-3 {
-    background: image-url('pages/home/4x4.jpg') center no-repeat;
+    background: image-url('pages/home/mountains.jpg') center no-repeat;
     color: $white;
   }
 }
 
-.quote {
-  // overflow: hidden;
-  height: auto;
-  margin: 0;
+.quotes {
+  height: 500px;
   z-index: 100;
   border: 10px solid $white;
+  background: image-url('pages/home/boat.jpg');
 
-  .image-slide,
+  .slide,
   .text-container,
   .slick-track,
   .slick-list,
@@ -86,16 +85,14 @@
     height: 100%;
   }
 
-  .image-slide {
-    position: relative;
+  .quote {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 20px;
+  }
 
-    img {
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: auto;
-    }
+  .author {
+    font-style: italic;
   }
 
   .text-container {
@@ -104,8 +101,4 @@
     position: relative;
     z-index: 200;
   }
-
-  .header { font-size: 50px; }
-
-  .copy { font-size: 20px; }
 }

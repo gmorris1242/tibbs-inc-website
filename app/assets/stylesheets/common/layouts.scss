@@ -25,15 +25,19 @@ ul {
 
 //keywords
 
-.uppercase { text-transform: uppercase; }
+.uppercase { text-transform: uppercase !important; }
 
-.relative { position: relative; }
+.relative { position: relative !important; }
 
-.center-text { text-align: center; }
+.center-text { text-align: center !important; }
 
-.padded-section { margin-bottom: 30px; }
+.padded-section { margin-bottom: 30px !important; }
 
-.no-padding { padding: 0; }
+.no-padding { padding: 0 !important; }
+
+.no-margin { margin: 0 !important; }
+
+.fixed { position: fixed !important; }
 
 .center-ver-hrz {
   display: flex;
