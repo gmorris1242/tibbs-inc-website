@@ -1,29 +1,18 @@
 %section.video-player
-
-%section.posters
   .row
     .column
-      .poster
+      .video-wrapper
+        = video_tag 'jeep_day.mp4', controls: true, class: 'video'
+%section.posters
+  .row
+    .column.videos
+      .poster(value='jeep_day')
         = image_tag 'pages/our_work/placeholder.png'
-      .poster
+      .poster(value='jeep_unmelting')
         = image_tag 'pages/our_work/placeholder.png'
-      .poster
+      .poster(value='mike_the_barber')
         = image_tag 'pages/our_work/placeholder.png'
-      .poster
+      .poster(value='submaster')
         = image_tag 'pages/our_work/placeholder.png'
-      .poster
-        = image_tag 'pages/our_work/placeholder.png'
-      .poster
-        = image_tag 'pages/our_work/placeholder.png'
-      .poster
-        = image_tag 'pages/our_work/placeholder.png'
-      .poster
-        = image_tag 'pages/our_work/placeholder.png'
-      .poster
-        = image_tag 'pages/our_work/placeholder.png'
-      .poster
-        = image_tag 'pages/our_work/placeholder.png'
-      .poster
-        = image_tag 'pages/our_work/placeholder.png'
-      .poster
+      .poster(value='trackhawk')
         = image_tag 'pages/our_work/placeholder.png'

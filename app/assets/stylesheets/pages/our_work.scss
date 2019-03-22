@@ -1,8 +1,33 @@
+* {
+  transition: all 1s;
+}
+
+.video-player {
+  background-color: $black;
+  // max-height: 0;
+  overflow: hidden;
+  transition: all 1s;
+
+  .video-wrapper {
+    padding: 20px;
+    text-align: center;
+
+    .video {
+    width: 80%;
+    }
+  }
+}
+
 .posters {
-  .column {
+  background: $black;
+
+  .videos {
+    display: flex;
+    flex-wrap: wrap;
 
     .poster {
-      max-width: 250px;
+      width: 25%;
+      border: 2px solid $white;
     }
   }
 }
