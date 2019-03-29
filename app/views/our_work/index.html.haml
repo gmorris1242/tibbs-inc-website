@@ -2,7 +2,7 @@
   .row
     .column
       .video-wrapper
-        = video_tag 'jeep_day.mp4', controls: true, class: 'video'
+        = video_tag video_path('jeep_day.mp4'), controls: true, class: 'video'
 %section.posters
   .row
     .column.videos
@@ -16,3 +16,5 @@
         = image_tag 'pages/our_work/placeholder.png'
       .poster(value='trackhawk')
         = image_tag 'pages/our_work/placeholder.png'
+%h1
+  = @our_work
