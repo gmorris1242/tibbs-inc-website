@@ -2,7 +2,7 @@
   .row
     .column
       .video-wrapper
-        = video_tag video_path('jeep_day.mp4'), controls: true, class: 'video'
+        = video_tag @src || 'jeep_day.mp4', controls: true, class: 'video'
 %section.posters
   .row
     .column.videos
