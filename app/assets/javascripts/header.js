@@ -19,7 +19,7 @@ $(document).ready(function() {
   }
 
   $(window).scroll(function() {
-    changeHeader($(this).scrollTop() > 675);
+    changeHeader($(this).scrollTop() > 75);
   });
 
 });

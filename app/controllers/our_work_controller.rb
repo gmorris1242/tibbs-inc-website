@@ -1,7 +1,6 @@
 class OurWorkController < ApplicationController
   def index
     @src = params[:src]
-
     render :show if @src
   end
 

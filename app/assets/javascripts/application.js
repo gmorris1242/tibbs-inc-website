@@ -14,7 +14,6 @@
 //= require jquery
 //= require jquery.slick
 //= require activestorage
-//= require turbolinks
 //= require foundation
 //= require_tree .
 

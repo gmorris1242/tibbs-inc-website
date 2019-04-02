@@ -4,6 +4,10 @@ $(document).ready(function() {
     $('.video-player').css('max-height','1000px');
     console.log(src)
 
+    setTimeout(function(){
+        $('html,body').animate({scrollTop: $('.video-player').offset().top}, 'slow');
+    }, 250); //Adjust to match slideSpeed
+
     $.ajax({
       type:    "GET",
       url:     "/our-work",
