@@ -1,21 +1,38 @@
-%section.header-section.center-text
-  %h1.header.white Our Work
+.place-holder
 
+%section.header-section
+  .row
+    .column
+      %h1.header Our Work
 %section.video-player
   .row
     .column.test
       .video-wrapper
-        -# = video_tag @src || 'jeep_day.mp4', controls: true, class: 'video'
 %section.posters
   .row
     .column.videos
-      .poster(value='jeep_day')
-        = image_tag 'pages/our_work/placeholder.png'
-      .poster(value='jeep_unmelting')
-        = image_tag 'pages/our_work/placeholder.png'
-      .poster(value='mike_the_barber')
-        = image_tag 'pages/our_work/placeholder.png'
-      .poster(value='submaster')
-        = image_tag 'pages/our_work/placeholder.png'
-      .poster(value='trackhawk')
-        = image_tag 'pages/our_work/placeholder.png'
+      .poster.relative.jeep-day(value='jeep_day')
+        = image_tag 'pages/our_work/jeep_day.png'
+        .hover-info
+          .wrapper.center-text
+            %h2 4X4 Day | JEEP
+      .poster.relative.jeep-unmelting(value='jeep_unmelting')
+        = image_tag 'pages/our_work/unmelting.png'
+        .hover-info
+          .wrapper.center-text
+            %h2 The Unmelting | JEEP
+      .poster.relative.mike-the-barber(value='mike_the_barber')
+        = image_tag 'pages/our_work/mike.png'
+        .hover-info
+          .wrapper.center-text
+            %h2 Mike The Barber
+      .poster.relative.submaster(value='submaster')
+        = image_tag 'pages/our_work/submaster.png'
+        .hover-info
+          .wrapper.center-text
+            %h2 Submaster | Ford
+      .poster.relative.trackhawk(value='trackhawk')
+        = image_tag 'pages/our_work/trackhawk.png'
+        .hover-info
+          .wrapper.center-text
+            %h2 Trackhawk | JEEP

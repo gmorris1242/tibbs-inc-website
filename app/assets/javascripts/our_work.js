@@ -5,7 +5,7 @@ $(document).ready(function() {
     console.log(src)
 
     setTimeout(function(){
-        $('html,body').animate({scrollTop: $('.video-player').offset().top}, 'slow');
+        $('html,body').animate({scrollTop: $('body').offset().top}, 'slow');
     }, 250); //Adjust to match slideSpeed
 
     $.ajax({

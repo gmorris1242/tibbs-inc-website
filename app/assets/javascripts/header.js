@@ -5,7 +5,12 @@ $(document).ready(function() {
     $('.menu').toggleClass('open');
     $('.black-logo, .white-logo').toggleClass('hide');
     changeHeader(false);
-    $('body').toggleClass('fixed');
+    $('body').toggleClass('menu-open');
+    if (window.location.pathname !== '/') {
+      if (!$('.menu').hasClass('open')) {
+        changeHeader(true);
+      }
+    }
   });
 
   function changeHeader(bool) {
@@ -18,8 +23,13 @@ $(document).ready(function() {
     }
   }
 
-  $(window).scroll(function() {
-    changeHeader($(this).scrollTop() > 75);
-  });
+  if (window.location.pathname === '/') {
+    $(window).scroll(function() {
+      changeHeader($(this).scrollTop() > 75);
+    });
+  } else {
+    changeHeader(true);
+  }
 
+  console.log(window.location.pathname)
 });

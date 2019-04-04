@@ -43,7 +43,7 @@
       border: 10px solid $white;
 
       &:hover {
-        filter: grayscale(0%);
+        // filter: grayscale(0%);
       }
 
       .badge-copy { max-width: 320px; }
@@ -51,12 +51,12 @@
   }
 
   .jeep {
-    background: image-url('pages/home/4x4.jpg') center no-repeat;
+    background: image-url('pages/our_work/jeep_day.png') center no-repeat;
     color: $white;
   }
 
-  .other {
-    background: image-url('pages/home/jungle.jpg') center no-repeat;
+  .mike {
+    background: image-url('pages/our_work/mike.png') center no-repeat;
     color: $white;
   }
 
@@ -65,7 +65,7 @@
     color: $white;
   }
 
-  .other-3 {
+  .other {
     background: image-url('pages/home/mountains.jpg') center no-repeat;
     color: $white;
   }
