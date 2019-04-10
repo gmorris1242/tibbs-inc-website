@@ -39,7 +39,7 @@
       justify-content: center;
       flex-direction: column;
       background-size: cover;
-      filter: grayscale(70%);
+      // filter: grayscale(70%);
       border: 10px solid $white;
 
       &:hover {
@@ -51,12 +51,12 @@
   }
 
   .jeep {
-    background: image-url('pages/our_work/jeep_day.png') center no-repeat;
+    background: image-url('pages/our_work/jeep_day.jpg') center no-repeat;
     color: $white;
   }
 
   .mike {
-    background: image-url('pages/our_work/mike.png') center no-repeat;
+    background: image-url('pages/our_work/mike.jpg') center no-repeat;
     color: $white;
   }
 
