@@ -19,5 +19,23 @@
 }
 
 #case-study {
-  video { width: 100%; }
+  video {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  img {
+    border: 10px solid $black;
+    display: block;
+    margin-bottom: 10px;
+
+    @include breakpoint(large) { margin-bottom: 0; }
+  }
+
+  .western {
+    background: $black;
+    color: $white;
+
+    img { margin-bottom: 0; }
+  }
 }

@@ -16,6 +16,7 @@
 .header {
   font-family: 'Aleo';
   font-weight: bold;
+  font-size: 30px;
 
   &.white { color: $white; }
 }
@@ -59,4 +60,13 @@ ul {
 .center-hrz {
   justify-content: center;
   display: flex;
+}
+
+.width-100 { width: 100%; }
+
+.even-padding { padding: 15px 0; }
+
+.margin-top-bottom {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
