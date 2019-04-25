@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('.poster').click(function() {
     var src = $(this).attr('value') + '.mp4';
+    console.log(src);
     $('.video-player').css('max-height','1000px');
     console.log(src)
 
