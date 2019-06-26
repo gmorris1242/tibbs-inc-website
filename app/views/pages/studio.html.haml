@@ -1,0 +1,59 @@
+.place-holder
+
+#studio
+  %section.header-section
+    .row
+      .column
+        %h1.header Studio
+  %section
+    .row
+      .column.small-10.small-offset-1
+        %p Our studio is located in downtown Pontiac, MI.  Stop by and see us!
+        .studio-slider
+          .slide
+            = image_tag 'studio/studio1.jpg'
+          .slide
+            = image_tag 'studio/studio2.jpg'
+          .slide
+            = image_tag 'studio/studio3.jpg'
+          .slide
+            = image_tag 'studio/studio4.jpg'
+          -# .slide
+          -#   = image_tag 'studio/studio5.jpg'
+          .slide
+            = image_tag 'studio/studio6.jpg'
+          .slide
+            = image_tag 'studio/studio7.jpg'
+          .slide
+            = image_tag 'studio/studio8.jpg'
+          .slide
+            = image_tag 'studio/studio9.jpg'
+          .slide
+            = image_tag 'studio/studio10.jpg'
+          .slide
+            = image_tag 'studio/studio11.jpg'
+          .slide
+            = image_tag 'studio/studio12.jpg'
+          .slide
+            = image_tag 'studio/studio13.jpg'
+          .slide
+            = image_tag 'studio/studio14.jpg'
+          .slide
+            = image_tag 'studio/studio15.jpg'
+          .slide
+            = image_tag 'studio/studio16.jpg'
+          .slide
+            = image_tag 'studio/studio17.jpg'
+
+:javascript
+  $(document).ready(function() {
+    $('.studio-slider').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      buttons: true,
+      autoplay: true,
+      autoplaySpeed: 3000
+    });
+  });

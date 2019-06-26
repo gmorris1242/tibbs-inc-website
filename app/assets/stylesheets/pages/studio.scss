@@ -1,0 +1,12 @@
+#studio {
+  .slider {
+    height: auto;
+  }
+
+  p { font-family: 'Aleo'; }
+
+  .slick-arrow {
+    &:before,
+    &:after, { color: black; }
+  }
+}
