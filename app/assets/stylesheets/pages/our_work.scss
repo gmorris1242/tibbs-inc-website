@@ -6,12 +6,15 @@
   transition: all 1s;
 
   .video-wrapper {
-    padding: 20px;
     text-align: center;
 
+
+
     .video {
-    width: 80%;
+    width: 100%;
     border-radius: 15px;
+
+    @include breakpoint (large) { width: 80%; }
     }
   }
 }
@@ -22,10 +25,13 @@
     flex-wrap: wrap;
 
     .poster {
-      width: 33.33%;
+      width: 100%;
       border: 2px solid $white;
       overflow: hidden;
       transition: all 1s;
+
+      @include breakpoint (medium) { width: 50%; }
+      @include breakpoint (large) { width: 33.33%; }
 
       &:hover {
         cursor: pointer;
