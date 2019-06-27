@@ -1,12 +1,15 @@
 #studio {
-  .slider {
+  .studio-slider {
     height: auto;
+    margin: 0px 0 -6px;
   }
 
   p { font-family: 'Aleo'; }
 
+  .gallary { background: black; }
+
   .slick-arrow {
     &:before,
-    &:after, { color: black; }
+    &:after, { color: white; }
   }
 }
