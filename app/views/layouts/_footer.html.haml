@@ -7,8 +7,10 @@
         %br
         Pontiac, MI 48342
         %br
-        248.787.0728
+        = link_to '248.787.0728', 'tel:2487870728'
         %br
-        howdy@tibbsinc.com
-      = link_to '#' do
+        = link_to 'howdy@tibbsinc.com', 'mailto:howdy@tibbsinc.com', target: '_blank'
+      = link_to 'https://www.instagram.com/tibbs_inc/', target: '_blank' do
         %i.fa.fa-instagram
+      = link_to 'https://www.facebook.com/tibbsincorporated', target: '_blank' do
+        %i.fa.fa-facebook-square

@@ -30,6 +30,14 @@
     .copy { font-size: 20px; }
   }
 
+  .studio-pic {
+    border: 10px solid $white;
+    overflow: hidden;
+    padding: 0;
+
+    img { width: 100%; }
+  }
+
   .case-study-badges {
     z-index: 100;
 
@@ -55,8 +63,8 @@
     color: $white;
   }
 
-  .mike {
-    background: image-url('pages/our_work/mike.jpg') center no-repeat;
+  .biolite {
+    background: image-url('pages/our_work/biolite.jpg') center no-repeat;
     color: $white;
   }
 
